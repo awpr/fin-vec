@@ -43,7 +43,7 @@ library
     , fin-int >=0.1 && <0.3
     , indexed-traversable ==0.1.*
     , lens >=4.15 && <5.1
-    , portray >=0.1.1 && <0.3
+    , portray >=0.1.1 && <0.4
     , portray-diff ==0.1.*
     , short-vec ==0.1.*
     , short-vec-lens ==0.1.*
@@ -68,7 +68,7 @@ test-suite Finite-test
     , finite-table
     , indexed-traversable ==0.1.*
     , lens >=4.15 && <5.1
-    , portray >=0.1.1 && <0.3
+    , portray >=0.1.1 && <0.4
     , portray-diff ==0.1.*
     , short-vec ==0.1.*
     , short-vec-lens ==0.1.*

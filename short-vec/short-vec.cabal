@@ -47,7 +47,7 @@ library
     , fin-int >=0.1 && <0.3
     , indexed-traversable ==0.1.*
     , integer-gmp >=0.5 && <1.2
-    , portray >=0.1 && <0.3
+    , portray >=0.1 && <0.4
     , portray-diff ==0.1.*
     , semigroupoids >=1.0 && <5.4
     , sint >=0.1 && <0.3
@@ -69,7 +69,7 @@ test-suite Vec-test
     , fin-int >=0.1 && <0.3
     , indexed-traversable ==0.1.*
     , integer-gmp >=0.5 && <1.2
-    , portray >=0.1 && <0.3
+    , portray >=0.1 && <0.4
     , portray-diff ==0.1.*
     , semigroupoids >=1.0 && <5.4
     , short-vec
@@ -95,7 +95,7 @@ benchmark Vec-benchmark
     , gauge
     , indexed-traversable ==0.1.*
     , integer-gmp >=0.5 && <1.2
-    , portray >=0.1 && <0.3
+    , portray >=0.1 && <0.4
     , portray-diff ==0.1.*
     , semigroupoids >=1.0 && <5.4
     , short-vec
