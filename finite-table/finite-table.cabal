@@ -42,7 +42,7 @@ library
     , distributive >=0.1 && <0.7
     , fin-int >=0.1 && <0.3
     , indexed-traversable ==0.1.*
-    , lens >=4.15 && <5.1
+    , lens >=4.15 && <5.2
     , portray >=0.1.1 && <0.4
     , portray-diff ==0.1.*
     , short-vec ==0.1.*
@@ -67,7 +67,7 @@ test-suite Finite-test
     , fin-int >=0.1 && <0.3
     , finite-table
     , indexed-traversable ==0.1.*
-    , lens >=4.15 && <5.1
+    , lens >=4.15 && <5.2
     , portray >=0.1.1 && <0.4
     , portray-diff ==0.1.*
     , short-vec ==0.1.*
