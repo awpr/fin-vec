@@ -12,10 +12,10 @@ description:    This provides a newtype @Fin@ containing an @Int@ with an invari
                 overhead compared to @Int@s, and is suitable for use as the index type of
                 length-indexed vectors.
 category:       Data
-homepage:       https://github.com/google/hs-fin-vec#readme
-bug-reports:    https://github.com/google/hs-fin-vec/issues
+homepage:       https://github.com/awpr/fin-vec#readme
+bug-reports:    https://github.com/awpr/fin-vec/issues
 author:         Lennart Augustsson <lennart@augustsson.net>
-maintainer:     Andrew Pritchard <awpr@google.com>
+maintainer:     Andrew Pritchard <awpritchard@gmail.com>
 copyright:      2017-2021 Google LLC
 license:        Apache-2.0
 license-file:   LICENSE
@@ -26,7 +26,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/google/hs-fin-vec
+  location: https://github.com/awpr/fin-vec
   subdir: fin-int
 
 library

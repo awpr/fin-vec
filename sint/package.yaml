@@ -25,10 +25,10 @@ description: |
 
     See the module intro of `Data.SInt` for more details.
 license: Apache-2.0
-author: Andrew Pritchard <awpr@google.com>
+author: Andrew Pritchard <awpritchard@gmail.com>
 copyright: 2021 Google LLC
-maintainer: Andrew Pritchard <awpr@google.com>
-github: google/hs-fin-vec/sint
+maintainer: Andrew Pritchard <awpritchard@gmail.com>
+github: awpr/fin-vec/sint
 
 extra-source-files:
   - CHANGELOG.md
