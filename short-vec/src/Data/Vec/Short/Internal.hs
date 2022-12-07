@@ -484,15 +484,24 @@ materialize (Accessor n get) = createVec n $ \mv -> forMFin_ n $ \i ->
 -- Fuses adjacent Vec ops, keeping everything in Accessor form.
 "access/materialize" forall va. access (materialize va) = va
 
+-- Eliminates no-op copies of a vector.
+"materialize/access" forall v. materialize (access v) = v
+
+  #-}
+
+-- This rule seems to fire incorrectly when there's no coerce present on
+-- GHC-9.2.2, leading to an infinite loop of applying the same expansion; so,
+-- disable it for now.  I don't yet know why it started firing.
+#if __GLASGOW_HASKELL__ < 902
+{-# RULES
+
 -- Transports coercions out from between access/materialize pairs so they can
 -- fuse.
 "access/coerce/materialize"
   forall v. access (coerce v) = mapVA coerce (access v)
 
--- Eliminates no-op copies of a vector.
-"materialize/access" forall v. materialize (access v) = v
-
   #-}
+#endif
 
 pureVA :: SInt n -> a -> Accessor n a
 pureVA n x = Accessor n $ \_ -> (# x #)
