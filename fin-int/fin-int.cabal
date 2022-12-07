@@ -16,7 +16,7 @@ homepage:       https://github.com/awpr/fin-vec#readme
 bug-reports:    https://github.com/awpr/fin-vec/issues
 author:         Lennart Augustsson <lennart@augustsson.net>
 maintainer:     Andrew Pritchard <awpritchard@gmail.com>
-copyright:      2017-2021 Google LLC
+copyright:      2017-2021 Google LLC; 2022 Andrew Pritchard
 license:        Apache-2.0
 license-file:   LICENSE
 build-type:     Simple
