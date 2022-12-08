@@ -26,7 +26,7 @@ extra-deps:
 - portray-0.3.0
 - portray-diff-0.1.1
 - portray-prettyprinter-0.2.1
-- wrapped-0.1.0.0
+- wrapped-0.1.0.1
 - gauge-0.2.5
 
 ghc-options:
