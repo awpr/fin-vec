@@ -14,7 +14,7 @@
 # limitations under the License.
 
 name: fin-int
-version: 0.2.0
+version: 0.2.0.1
 category: Data
 synopsis: Finite sets of static size
 description: |

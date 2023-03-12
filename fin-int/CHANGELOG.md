@@ -1,3 +1,7 @@
+# 0.2.0.1 (2023-03-12)
+
+* Fix build on GHC 9.4 and 9.6 by adding `UndecidableInstances`.
+
 # 0.2.0 (2021-10-11)
 
 * Add a type role for `Fin`, which was formerly `Coercible` in unsafe ways.
