@@ -1,5 +1,5 @@
 -- Copyright 2018-2021 Google LLC
--- Copyright 2022 Andrew Pritchard
+-- Copyright 2022-2023 Andrew Pritchard
 --
 -- Licensed under the Apache License, Version 2.0 (the "License");
 -- you may not use this file except in compliance with the License.
@@ -61,7 +61,9 @@ module Data.Vec.Short.Internal where
 
 import Prelude hiding ((++), concat, iterate)
 
+#if !MIN_VERSION_base(4, 18, 0)
 import Control.Applicative (Applicative(..))
+#endif
 import Control.DeepSeq (NFData(rnf))
 import Control.Exception (assert)
 import qualified Data.Data as D

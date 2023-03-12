@@ -1,5 +1,5 @@
 # Copyright 2021 Google LLC
-# Copyright 2022 Andrew Pritchard
+# Copyright 2022-2023 Andrew Pritchard
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ description: |
     uses it to implement array-backed total maps (@Table@s) indexed by them.
 license: Apache-2.0
 author: Andrew Pritchard <awpritchard@gmail.com>
-copyright: 2017-2021 Google LLC
+copyright: 2017-2021 Google LLC; 2023 Andrew Pritchard
 maintainer: Andrew Pritchard <awpritchard@gmail.com>
 github: awpr/fin-vec/finite-table
 
@@ -32,7 +32,7 @@ extra-source-files:
 
 dependencies:
   - adjunctions >= 4.4 && < 4.5
-  - base >= 4.12 && < 4.18
+  - base >= 4.12 && < 4.19
   - cereal >= 0.5 && < 0.6
   - distributive >= 0.1 && < 0.7
   - data-default-class >= 0.0 && < 0.2

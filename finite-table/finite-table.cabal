@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.35.0.
+-- This file has been generated from package.yaml by hpack version 0.35.1.
 --
 -- see: https://github.com/sol/hpack
 
@@ -14,7 +14,7 @@ homepage:       https://github.com/awpr/fin-vec#readme
 bug-reports:    https://github.com/awpr/fin-vec/issues
 author:         Andrew Pritchard <awpritchard@gmail.com>
 maintainer:     Andrew Pritchard <awpritchard@gmail.com>
-copyright:      2017-2021 Google LLC
+copyright:      2017-2021 Google LLC; 2023 Andrew Pritchard
 license:        Apache-2.0
 license-file:   LICENSE
 build-type:     Simple
@@ -35,7 +35,7 @@ library
       src
   build-depends:
       adjunctions ==4.4.*
-    , base >=4.12 && <4.18
+    , base >=4.12 && <4.19
     , cereal ==0.5.*
     , data-default-class >=0.0 && <0.2
     , deepseq >=1.1 && <1.5
@@ -59,7 +59,7 @@ test-suite Finite-test
   build-depends:
       QuickCheck
     , adjunctions ==4.4.*
-    , base >=4.12 && <4.18
+    , base >=4.12 && <4.19
     , cereal ==0.5.*
     , data-default-class >=0.0 && <0.2
     , deepseq >=1.1 && <1.5
