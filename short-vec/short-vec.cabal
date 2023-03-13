@@ -5,7 +5,7 @@ cabal-version: 1.12
 -- see: https://github.com/sol/hpack
 
 name:           short-vec
-version:        0.1.0.0
+version:        0.1.0.1
 synopsis:       Length-indexed vectors using SmallArray#
 description:    This provides performant length-indexed vectors with a suite of rewrite rules
                 implementing fusion of intermediate structures, so that expressions involving

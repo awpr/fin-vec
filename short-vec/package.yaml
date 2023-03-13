@@ -14,7 +14,7 @@
 # limitations under the License.
 
 name: short-vec
-version: 0.1.0.0
+version: 0.1.0.1
 category: Data
 synopsis: Length-indexed vectors using SmallArray#
 description: |
